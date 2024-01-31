@@ -1,0 +1,477 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+@font-face{
+
+	font-family: mySofia;
+
+	src:
+
+url(fonts/Sofia-Regular.otf);
+
+}
+
+@font-face{
+
+	font-family: myTitillium;
+
+	src: url(fonts/Titillium-Regular.otf);
+
+}
+
+*{
+
+	padding: 0px;
+
+	margin: 0px;
+
+}
+
+body{
+
+	background: url(../../blackorchid/blackorchid/blackorchid.png);
+
+	padding: 0px;
+
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+
+	color:	#FFF;
+
+}
+
+#phone{
+
+	float: left;
+
+	margin: 0px 0px 0px 0px;
+
+	width: 200px;
+
+	font-family: mySofia;
+
+	font-size: 16px;
+
+}
+
+#c-address{
+
+	float: right;
+
+	margin: 10px 0px 0px 10px;
+
+	width: 300px;
+
+	font-family: mySofia;
+
+	font-size: 16px;
+
+}
+
+#logo{
+
+	margin-top: 10px;
+
+	margin-left: 200px;
+
+	width: 200px;
+
+	height:  100px;
+
+	
+
+}
+
+#logo a{
+
+	text-decoration: none;
+
+	color: #ffffff;
+
+	font-family: mySofia;
+
+}
+
+#logo img{
+
+	width: 200px;
+
+	height: 150px;
+
+	margin-top: -8px;
+
+	margin-left: 130px;
+
+}
+
+#inner-header{
+
+	width: 960px;
+
+	margin: 0 auto;
+
+}
+
+#menu{
+
+	
+
+	/*padding-top: 200px;*/
+
+	font-family: mySofia;
+
+	margin: 50px 10px 10px 0px;
+
+	background: url(Images/menu-banner.png) no-repeat center;
+
+	width: 960px;
+
+	height:50px;
+
+	
+
+}
+
+
+
+#menu li{
+
+	
+
+	float: left;
+
+	list-style-type: none;
+
+
+
+	
+
+}
+
+#menu li a{
+
+	overflow: hidden;
+
+	display: inline-block;
+
+	text-decoration: none;
+
+	font-size: 20px;
+
+	color: #ffffff;
+
+	font-style: bold;
+
+	text-align: center;
+
+	padding: 10px;
+
+	margin-right: 80px;
+
+	margin-left: 20px;
+
+	
+
+}
+
+#menu a:hover{
+
+	color: #ffffff;
+
+	display: inline-block;
+
+	  
+
+}
+
+#menu a:visited{
+
+	color: #000000;
+
+	display: block;
+
+}
+
+#left-img{
+
+	float: left;
+
+	width: 300px;
+
+	height: 300px;
+
+	margin: 10px;
+
+	display: block;
+
+}
+
+#center-img{
+
+	float: left;
+
+	margin: 10px;
+
+	width: 300px;
+
+	height: 300px;
+
+	
+
+	display: block;
+
+}
+
+#right-img{
+
+	float: left;
+
+	margin: 10px;
+
+	width: 300px;
+
+	height: 300px;
+
+	display: block;
+
+	overflow: hidden;
+
+}
+
+h2{
+
+	
+
+	margin: 0px 0px 20px 50px;
+
+	font-family:mySofia;
+
+	width: 350px;
+
+	color: #000000;
+
+}
+
+#sample-bar{
+
+	background: url(Images/sample-bar.png) no-repeat center;
+
+	width: 200px;
+
+	height: 65px;
+
+	margin-top: -30px;
+
+	padding-left: 50px;
+
+}
+
+#banner-menu{
+
+	background: url(Images/menu.png);
+
+	margin: -7px 0px 20px 10px;
+
+	height:500px;
+
+	width: 350px;
+
+	float: left;
+
+}
+
+#sample-menu{
+
+	margin: -10px 0px 0px 10px;
+
+	
+
+}
+
+#sample-menu li{
+
+	list-style-type: none;
+
+	color: #000000;
+
+	margin-left: 100px;
+
+}
+
+h3{
+
+	margin: -10px 0px 0px 100px;
+
+	color: orange;
+
+	font-family: mySofia;
+
+	font-size: 28px;
+
+	width:100px;
+
+}
+
+
+
+#reservations{
+
+background: url(Images/reservations.png);
+
+height: 500px;
+
+width: 589px;
+
+float: right;
+
+margin-top: -7px;
+
+margin-right: 10px;
+
+}	
+
+.contact_right{
+
+	margin: 10px 0px 0px 30px;
+
+
+
+}
+
+.form-input{
+
+	width: 300px;
+
+	height: 450px;	
+
+	float:left;
+
+	clear:both;
+
+	margin: 20px 0px 5px 10px;
+
+}
+
+.input-row{
+
+	width: 500px;
+
+	float: left;
+
+	margin-bottom: 20px;
+
+}
+
+	
+
+.input-row label{
+
+	float:left;
+
+	width:100px;
+
+	color:#000000;
+
+	font-size: 18px;
+
+	font-family: mysans-Serif;
+
+	/*padding: 10px 30px 10px 0px;*/
+
+}
+
+
+
+.text-input{
+
+	width: 200px;
+
+	float:left;
+
+	border:none
+
+	padding:5px 0px 5px 5px;
+
+}
+
+.input-txtarea{
+
+	float: right;
+
+	width: 300px;
+
+	height: 70px;
+
+	background-color:#ffffff;
+
+	color: #000000;
+
+	font-size:14px;
+
+	font-family:Arial, Helvetica, sans-serif;
+
+	float: left;
+
+	
+
+}
+
+	
+
+	
+
+.form-submit{
+
+	background-color: #754c24;
+
+	color:#ffffff;
+
+	border: none;
+
+	width: 100px;
+
+	height: 30px;
+
+	text-align: center;
+
+	line-height: 30px;
+
+	margin: 20px 0px 200px 300px;
+
+	font-weight:bold;
+
+	cursor: pointer;
+
+	font-size: 20px;
+
+}
+
+	
+
+
+
+.clear{
+
+	clear: both;
+
+}
+
+#foo-bar{
+
+	margin-top: 100px;
+
+	background: url(Images/menu-banner.png) no-repeat center;
+
+	width:100%;
+
+	height:20px;
+
+}
+
+#foo-bar p{
+
+	text-align: center;
+
+	font-size: 16px;
+
+    
